@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WISECLEAN — Service de nettoyage professionnel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <p aria-label="Wiseclean, retour à l'accueil">wiseclean</p>
+
+            <nav class=" main-nav" aria-label="Navigation principale">
+
+                <ul class="hearder-list">
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#Tarifs">tarifs</a></li>
+                    <li><a href="#avis">Avis</a></li>
+                    <li><a href="contact.html" target="_blank">contact</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+226000000" class="header-phone">25 09 09 09</a>
+                <a href="#contact" class=" Hbouton">demander un devis</a>
+
+                <button type="button" id="menu-toggle" class="menu-toggle" aria-expanded="false"
+                    aria-controls="mobile-menu" aria-label="Ouvrir le menu">
+                    <span class="burger-line" aria-hidden="true"></span>
+                    <span class="burger-line" aria-hidden="true"></span>
+                    <span class="burger-line" aria-hidden="true"></span>
+                </button>
+
+            </div>
+
+        </div>
+
+        <nav id="mobile-menu" class="mobile-menu" hidden aria-label="Menu mobile">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#avis">Avis</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>
+                <li><a href="tel:+33250909090">25 09 09 09</a></li>
+                <li><a href="#contact" class="Hbouton">Demander un devis</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-inner">
+
+                <div class="hero-text">
+
+                    <p class="hero-pres">NETTOYAGE PROFESSIONNEL — PARTICULIERS &amp; ENTREPRISES</p>
+
+                    <h1 class="hero-title">Un intérieur qui respire, sans lever le petit doigt.</h1>
+
+                    <p class="hero-lead">
+                        WISECLEAN intervient chez les particuliers et les entreprises
+                        pour un nettoyage soigné, fiable et sans mauvaise surprise.
+                        Devis détaillé sous 24h, sans engagement.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#contact" class="Cbouton">demander un devis gratuit </a>
+                        <a href="#service" class="btn-gost">voir nos services</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <img src="images/2.jpg" alt="equipe en action">
+
+        </section>
+
+        <!-- statistique -->
+        <section class="stats" id="stats-section" aria-label="Chiffres clés">
+
+            <div class="stat-inner">
+
+                <div class="stat">
+                    <span class="stat-number"><span class="stat-value" data-target="12">0</span></span>
+                    <span class="stat-label">Ans d'expérience</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number"><span class="stat-value" data-target="2400">0</span><span
+                            class="stat-suffix">+</span></span>
+                    <span class="stat-label">Interventions réalisées</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number"><span class="stat-value" data-target="98">0</span><span
+                            class="stat-suffix">%</span></span>
+                    <span class="stat-label">Clients satisfaits</span>
+                </div>
+
+                <div class="stat">
+                    <span class="stat-number"><span class="stat-value" data-target="45">0</span></span>
+                    <span class="stat-label">Professionnels formés</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- services -->
+        <section class="services" id="services">
+
+
+
+            <div class="services-content">
+
+                <p class="sevices-pres">Services</p>
+                <h3 class=" services-title"> Un protocole pensé
+                    pour chaque espace
+                </h3>
+
+                <ol class="services-list">
+
+                    <li class="services-item">
+                        <span class=" services-num" aria-hidden="true">01 </span>
+                        <div>
+                            <p class="service-name">Nettoyage résidentiel</p>
+                            <P class="service-propre">Entretien régulier ou ponctuel de votre maison ou appartement.
+                            </P>
+                        </div>
+                        <img class="icon" src="images/bouton-daccueil.png" alt="" aria-hidden="true">
+                    </li>
+
+                    <li class="services-item">
+                        <span class="services-num" aria-hidden="true">02 </span>
+                        <div>
+                            <p class="service-name">Nettoyage de bureaux</p>
+                            <P class="service-propre">Des espaces de travail sains, en dehors de vos heures
+                                d'ouverture
+                            </P>
+                        </div>
+                        <img class="icon" src="images/immeuble-de-bureaux.png" alt="" aria-hidden="true">
+                    </li>
+
+
+                    <li class="services-item">
+
+                        <span class="services-num" aria-hidden="true">03 </span>
+                        <div>
+                            <p class="service-name">Nettoyage après travaux</p>
+                            <P class="service-propre">Fin de chantier : poussière, résidus et finitions.</P>
+                        </div>
+                        <img class="icon" src="images/cle.png" alt="" aria-hidden="true">
+                    </li>
+
+                    <li class="services-item">
+                        <span class="services-num" aria-hidden="true">04 </span>
+                        <div>
+                            <p class="service-name">Nettoyage de vitres</p>
+                            <P class="service-propre">Vitres et surfaces vitrées, à toute hauteur, en toute
+                                sécurité.
+                            </P>
+                        </div>
+
+                        <img class="icon" src="images/le-nettoyage-des-vitres.png" alt="" aria-hidden="true">
+                    </li>
+
+                </ol>
+
+            </div>
+
+            <img class="image-services" src="images/3.jpg" alt=" equipe en finition">
+
+
+        </section>
+
+        <!-- Processus -->
+        <section class="process" aria-label="Notre méthode en trois étapes">
+
+            <ul class="process-inner">
+
+                <li class="process-list">
+                    <span class="process-num" aria-hidden="true"> 01</span>
+                    <div>
+                        <p class="process-name">Vous demandez un devis</p>
+                        <p class="process-propre">Réponse détaillée sous 24h.</p>
+                    </div>
+                </li>
+
+                <li class="process-list">
+                    <span class="process-num" aria-hidden="true">02</span>
+
+                    <div>
+                        <p class="process-name">On intervient chez vous</p>
+                        <p class="process-propre">À l'heure convenue, sans surprise.</p>
+                    </div>
+                </li>
+
+                <li class="process-list">
+                    <span class="process-num" aria-hidden="true">03</span>
+
+                    <div>
+                        <p class="process-name">Vous validez le résultat</p>
+                        <p class="process-propre">Satisfait ou on repasse, gratuitement</p>
+                    </div>
+                </li>
+
+
+            </ul>
+
+        </section>
+
+        <!-- temoignage -->
+        <section class="testimonials" id="avis">
+
+            <div class="testimonials-inner">
+
+                <p>Temoignages</p>
+
+                <div class="testimonials-grid">
+
+
+                    <figure class="testimonials-fig">
+
+                        <img class="testimonials-media" src="images/1.jpg" alt=" service bien fait">
+
+                        <blockquote>
+
+                            « Le seul prestataire qu'on n'a jamais eu besoin de
+                            relancer. Chaque passage est identique au premier :
+                            soigné, ponctuel, discret. »
+
+                            <figcaption>
+                                <cite><strong> Sophie L.</strong></cite>
+                                <span> Copropriété Les Tilleuls</span>
+                            </figcaption>
+
+                        </blockquote>
+
+                    </figure>
+
+                    <figure class=" testimonials-cite">
+
+                        <blockquote>
+                            « Ponctuels, discrets, et un résultat au-dessus de
+                            mes attentes à chaque passage. »
+
+                            <figcaption> <cite>Camille R.</cite> — Propriétaire</figcaption>
+
+                        </blockquote>
+
+                        <blockquote>
+                            « Nos bureaux sont impeccables tous les lundis
+                            matin. Un vrai gain de sérénité. »
+                            <figcaption> <cite>Marc D. </cite>— Cabinet d'architectes</figcaption>
+                        </blockquote>
+
+                    </figure>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- question -->
+        <section class="faq">
+
+            <div class="faq-inner">
+
+                <div class="faq-head">
+
+                    <p class="faq-des">Question frequentes</p>
+
+                    <h2 class="faq-title"> Ce qu'on nous demande le plus</h2>
+
+                    <p class="faq-help">Une autre question ? Écrivez-nous, on répond sous 24h.</p>
+
+                </div>
+
+                <div class="faq-list">
+
+                    <div class="faq-item">
+
+                        <button type="button" class="faq-question" aria-expanded="false">
+                            <span>Comment se déroule le premier rendez-vous ?</span>
+                            <span class="faq-chevron" aria-hidden="true"></span>
+                        </button>
+
+                        <div class="faq-answer" hidden>
+                            <p>Vous demandez un devis via le formulaire, nous vous répondons
+                                sous 24h avec un créneau. Un intervenant passe, évalue la
+                                prestation et vous confirme le tarif avant toute intervention.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <button type="button" class="faq-question" aria-expanded="false">
+                            <span>Utilisez-vous des produits écologiques ?</span>
+                            <span class="faq-chevron" aria-hidden="true"></span>
+                        </button>
+
+                        <div class="faq-answer" hidden>
+                            <p>Oui. Nous utilisons en priorité des produits certifiés
+                                écolabellisés, sans solvants agressifs, adaptés aux foyers
+                                avec enfants ou animaux.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <button type="button" class="faq-question" aria-expanded="false">
+                            <span>Puis-je annuler ou reporter une intervention ?</span>
+                            <span class="faq-chevron" aria-hidden="true"></span>
+                        </button>
+
+                        <div class="faq-answer" hidden>
+                            <p>Oui, sans frais jusqu'à 24h avant l'intervention.
+                                Un simple appel ou un email suffit.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="faq-item">
+
+                        <button type="button" class="faq-question" aria-expanded="false">
+                            <span>Intervenez-vous le week-end ?</span>
+                            <span class="faq-chevron" aria-hidden="true"></span>
+                        </button>
+
+                        <div class="faq-answer" hidden>
+                            <p>Le samedi matin, de 9h à 13h, sur demande.
+                                Nous n'intervenons pas le dimanche.</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- contact -->
+        <section class="cta" id="contact">
+
+            <div class="cta-inner">
+
+                <div class="cta-content">
+                    <h2 class="cta-title">Prêt pour un <br>espace impeccable ?</h2>
+                    <a href="#contact" class="Cbouton">Demander un devis gratuit</a>
+                </div>
+
+                <div class="cta-panel">
+
+                    <form id="quote-form" class="quote-form" novalidate>
+
+                        <div class="cta-quote">
+                            <div class="field">
+                                <label for="name">Nom complet</label>
+                                <input id="name" name="name" type="text" autocomplete="name" required>
+                                <p class="field-error" data-error-for="name" role="alert"></p>
+                            </div>
+
+                            <div class="field">
+                                <label for="email">E-mail</label>
+                                <input id="email" name="email" type="email" autocomplete="email" required>
+                                <p class="field-error" data-error-for="email" role="alert"></p>
+                            </div>
+                        </div>
+
+
+                        <div class="field">
+                            <label for="message">Votre besoin</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                            <p class="field-error" data-error-for="message" role="alert"></p>
+                        </div>
+
+                        <button type="submit" class="Hbouton">
+                            Demander un devis gratuit
+                        </button>
+
+                        <p class="form-success" role="status" hidden>
+                            Merci ! Votre demande a bien été envoyée. Nous revenons vers vous sous 24h.
+                        </p>
+
+                    </form>
+
+                </div>
+                
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <div class="footer-col">
+
+                <p class="footer-logo">wiseclean</p>
+                <p class="footer-text">Service de nettoyage professionnel pour</br>
+                    particuliers et entreprises.
+                </p>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>services</h3>
+
+                <ul>
+                    <li> <a href="#services">Nettoyage résidentiel</a></li>
+                    <li> <a href="#services"> Nettoyage de bureaux</a></li>
+                    <li> <a href="#services"> Après travaux</a></li>
+                    <li> <a href="#services"> Vitres</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>Entreprise</h3>
+
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#avis">Avis clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>Restez informé</h3>
+
+                <div class="newsletter" novalidate>
+                    <a href="mailto:equipe@wiseclean.com">equipe@wiseclean.com</a>
+                    <p class="btn-foot">OK</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>© <span id="year">2026</span> WISECLEAN. Tous droits réservés.</p>
+            <p>25 09 09 09 · <a href="mailto:equipe@wiseclean.com">equipe@wiseclean.com</a></p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

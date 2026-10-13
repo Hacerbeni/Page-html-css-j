@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Work+Sans:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="header-inner">
+
+            <p aria-label="Wiseclean, retour à l'accueil">wiseclean</p>
+
+            <nav class=" main-nav" aria-label="Navigation principale">
+
+                <ul class="hearder-list">
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#Tarifs">tarifs</a></li>
+                    <li><a href="#avis">Avis</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="header-actions">
+                <a href="tel:+226000000" class="header-phone">25 09 09 09</a>
+                <a href="#contact" class=" Hbouton">demander un devis</a>
+
+                <button type="button" id="menu-toggle" class="menu-toggle" aria-expanded="false"
+                    aria-controls="mobile-menu" aria-label="Ouvrir le menu">
+                    <span class="burger-line" aria-hidden="true"></span>
+                    <span class="burger-line" aria-hidden="true"></span>
+                    <span class="burger-line" aria-hidden="true"></span>
+                </button>
+
+            </div>
+
+        </div>
+
+        <nav id="mobile-menu" class="mobile-menu" hidden aria-label="Menu mobile">
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#tarifs">Tarifs</a></li>
+                <li><a href="#avis">Avis</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="tel:+33250909090">25 09 09 09</a></li>
+                <li><a href="#contact" class="Hbouton">Demander un devis</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main class="contact-main">
+        <section class="head-contact">
+
+            <div class="adresse_line">
+
+                <p class=" head-tl">contact</p>
+                <h2 class="head-h">Parlez nous de <span>votre projet</span></h2>
+                <p class="head-p">Decrivez nous vos besoin nous reviendrons vers vous avec un devis detailés sans
+                    engagement</p>
+                <button class=" Hbouton-cont">devis gratuit sous <span>24H</span> </button>
+            </div>
+
+            <div class="formulair">
+                <h3 class="formulair-h">Demande de devis</h3>
+                <p class="head-p">tous les champs sont necessaire pour vous repondre rapidement</p>
+
+                <form id="quote-form" class="quote-form" >
+
+
+                    <div class="field">
+                        <label for="name">nom</label>
+                        <input id="name" name="name" type="text" autocomplete="name" required>
+                        <p class="field-error" data-error-for="name" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="prenom">Prenom</label>
+                        <input id="prenom" name="prenom" type="text" autocomplete="prenom" required>
+                        <p class="field-error" data-error-for="prenom" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <label for="email"> E-mail</label>
+                        <input id="email" name="email" type="email" autocomplete="email" required>
+                        <p class="field-error" data-error-for="email" role="alert"></p>
+                    </div>
+                    <div class="field">
+                        <p>Type de service :</p>
+                        <label for="residence"> Residentiel</label>
+                        <input id="residence" name="service_type" type="radio" value="residentiel" required>
+
+                        <label for="apres_travaux"> Apres travaux</label>
+                        <input id="apres_travaux" name="service_type" type="radio" value="apres_travaux" required>
+
+                        <label for="bureau"> bureau</label>
+                        <input id="bureau" name="service_type" type="radio" value="bureau" required>
+
+                        <label for="vitre"> Vitre</label>
+                        <input id="vitre" name="service_type" type="radio" value="vitre">
+                        <p class="field-error" data-error-for="service_type" role="alert" required></p>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <p class="field-error" data-error-for="message" role="alert"></p>
+                    </div>
+                    <button type="submit" class="Hbouton">Demander un devis gratuit</button>
+
+                    <p class="form-success" role="status" hidden>
+                        Merci ! Votre demande a bien été envoyée. Nous revenons vers vous sous 24h.
+                    </p>
+
+
+
+                </form>
+
+            </div>
+        </section>
+
+
+        <section class="adresse">
+
+            <div class="adresse_line">
+
+                <p class=" head-tl">Coordonner</p>
+                <p class="head-p">Adresse <strong> AZIMO</strong></p>
+                <p class="head-p">Telephone <strong>25 09 09 09</strong></p>
+                <p class="head-p">E-mail <strong> equipe@wiseclearn.com</strong></p>
+
+            </div>
+
+            <div class="adresse_line">
+                <p class=" head-tl">Horaires</p>
+                <p class="head-p">lun-ven <span><strong>8h-17h</strong></span></p>
+                <p class="head-p">sam <span><strong>9h-12h</strong></span></p>
+
+            </div>
+
+            <div class="localisation">
+                <p class=" head-tl"> Nous trouver </p>
+                <img src="images/Kadiogo_departments.png" alt="carte">
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <footer class="site-footer">
+
+        <div class="footer-inner">
+
+            <div class="footer-col">
+
+                <p class="footer-logo">wiseclean</p>
+                <p class="footer-text">Service de nettoyage professionnel pour</br>
+                    particuliers et entreprises.
+                </p>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>services</h3>
+
+                <ul>
+                    <li> <a href="#services">Nettoyage résidentiel</a></li>
+                    <li> <a href="#services"> Nettoyage de bureaux</a></li>
+                    <li> <a href="#services"> Après travaux</a></li>
+                    <li> <a href="#services"> Vitres</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>Entreprise</h3>
+
+                <ul>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#avis">Avis clients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer-col">
+
+                <h3>Restez informé</h3>
+
+                <div class="newsletter" novalidate>
+                    <a href="mailto:equipe@wiseclean.com">equipe@wiseclean.com</a>
+                    <p class="btn-foot">OK</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>© <span id="year">2026</span> WISECLEAN. Tous droits réservés.</p>
+            <p>25 09 09 09 · <a href="mailto:equipe@wiseclean.com">equipe@wiseclean.com</a></p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
